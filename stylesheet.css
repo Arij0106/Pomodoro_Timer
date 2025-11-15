@@ -1,0 +1,46 @@
+
+
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    font-family: "roboto";
+}
+.title{
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: purple;
+}
+.timer{
+    font-size: 100px;
+    color: #e210b8;
+}
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+
+}
+button:hover{
+    color: grey;
+    opacity: .7;
+    transform: scale(1.2);
+}
+#start{
+    background-color: rgb(218, 140, 215);
+
+}
+#stop{
+    background-color: rgb(195, 114, 233);
+}
+#reset{
+    background-color: rgb(118, 245, 237);
+}
